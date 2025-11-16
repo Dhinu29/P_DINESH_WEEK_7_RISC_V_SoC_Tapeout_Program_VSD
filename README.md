@@ -70,6 +70,20 @@ set ::env(WRITE_DB) 1
 # Ready for interactive flow
 puts "Config loaded for design $::env(DESIGN_NAME). Ready for interactive flow."
 ```
+#2. Running OpenLane Interactive Flow
+```
+cd /openlane
+prep -design designs/VSDBabySoC
+```
+```
+run_synthesis
+run_floorplan
+run_placement
+run_cts
+run_routing
+run_magic
+run_klayout
+```
 
 <img width="1855" height="886" alt="VSDBABYSOC_GDSII" src="https://github.com/user-attachments/assets/a366c0ca-bc03-4353-9d9f-f4a0f04cd4c6" />
 <img width="1911" height="943" alt="ROUTING_!" src="https://github.com/user-attachments/assets/210e0ff2-3472-4c5b-8b14-0ae2d5737d94" />
