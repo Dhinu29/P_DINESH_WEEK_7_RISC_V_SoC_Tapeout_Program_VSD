@@ -1,8 +1,10 @@
+
 # P_DINESH_WEEK_7_RISC_V_SoC_Tapeout_Program_VSD
-#VSDBabySoC OpenLane & OpenROAD Flow
+
+# VSDBabySoC OpenLane & OpenROAD Flow
 This repository contains the VSDBabySoC design implemented using the Sky130 PDK and processed with OpenLane and OpenROAD tools. Below is a summary of the steps followed, including synthesis, floorplanning, routing, and viewing the layout in Magic.
 
-#1. Design Configuration
+# 1. Design Configuration
 The design is configured with a config.tcl file in OpenLane:
 
 ```
